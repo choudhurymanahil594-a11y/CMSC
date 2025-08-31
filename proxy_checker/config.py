@@ -1,0 +1,47 @@
+# proxy_checker/proxy_checker_lib/config.py
+
+# 代理服务器列表
+# 格式: "ip:port:username:password"
+PROXIES = [
+    '46.202.59.143:5634:ivyfyslr:3j05k0cal8uraa',
+    '23.229.126.88:7617:ivyfyslr:3j05k0cal8uraa',
+    '46.202.59.33:5524:ivyfyslr:3j05k0cal8uraa',
+    '64.64.110.122:6645:ivyfyslr:3j05k0cal8uraa',
+    '50.114.98.58:5542:ivyfyslr:3j05k0cal8uraa',
+    '23.26.71.17:5500:ivyfyslr:3j05k0cal8uraa',
+    '161.123.154.140:6670:ivyfyslr:3j05k0cal8uraa',
+    '50.114.15.232:6217:ivyfyslr:3j05k0cal8uraa',
+    '161.123.154.180:6710:ivyfyslr:3j05k0cal8uraa',
+    '198.23.239.178:6584:ivyfyslr:3j05k0cal8uraa',
+    '198.144.190.240:6087:ivyfyslr:3j05k0cal8uraa',
+    '198.144.190.67:5914:ivyfyslr:3j05k0cal8uraa',
+    '192.186.172.149:9149:ivyfyslr:3j05k0cal8uraa',
+    '192.186.151.100:8601:ivyfyslr:3j05k0cal8uraa',
+    '192.186.172.221:9221:ivyfyslr:3j05k0cal8uraa',
+    '31.58.30.109:6691:ivyfyslr:3j05k0cal8uraa',
+    '31.58.10.162:6130:ivyfyslr:3j05k0cal8uraa',
+    '31.58.10.242:6210:ivyfyslr:3j05k0cal8uraa',
+    '31.59.13.40:6310:ivyfyslr:3j05k0cal8uraa',
+    '145.223.58.13:6282:ivyfyslr:3j05k0cal8uraa',
+    '198.20.191.101:5171:ivyfyslr:3j05k0cal8uraa',
+    '23.236.222.207:7238:ivyfyslr:3j05k0cal8uraa',
+    '23.236.216.186:6216:ivyfyslr:3j05k0cal8uraa',
+    '146.103.44.105:6657:ivyfyslr:3j05k0cal8uraa',
+    '145.223.56.176:7228:ivyfyslr:3j05k0cal8uraa',
+    '145.223.56.143:7195:ivyfyslr:3j05k0cal8uraa',
+    '161.123.93.183:5913:ivyfyslr:3j05k0cal8uraa',
+    '136.0.194.80:6817:ivyfyslr:3j05k0cal8uraa',
+    '173.211.68.54:6336:ivyfyslr:3j05k0cal8uraa',
+    '208.70.11.217:6298:ivyfyslr:3j05k0cal8uraa',
+    '45.61.100.165:6433:ivyfyslr:3j05k0cal8uraa',
+    '136.0.126.109:5870:ivyfyslr:3j05k0cal8uraa',
+    '23.27.196.186:6555:ivyfyslr:3j05k0cal8uraa',
+    '142.111.44.2:5714:ivyfyslr:3j05k0cal8uraa',
+    # ... 继续添加剩下的
+]
+
+# Chrome 浏览器可执行文件路径
+CHROME_PATH = "C:/Program Files/Google/Chrome/Application/chrome.exe"
+
+# 并发任务数量
+SEMAPHORE_LIMIT = 5

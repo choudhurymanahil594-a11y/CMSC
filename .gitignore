@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.pyc
+
+# Proxy Checker
+proxy_checker/proxy-live.txt
+proxy_checker/tmp_proxy_plugins/
