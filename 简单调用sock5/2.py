@@ -112,7 +112,7 @@ async def test_proxy(proxy, playwright):
                 context = await browser.new_context()
                 page = await context.new_page()
                 await page.goto("https://httpbin.org/ip", timeout=15000)
-
+                print(f"测试代理 {proxy} 的网页内容: {await page.html()}")
                 # 解析返回 JSON
                 text = await page.text_content("pre")
                 data = json.loads(text)
